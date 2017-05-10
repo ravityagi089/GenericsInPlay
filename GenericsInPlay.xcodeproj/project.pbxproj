@@ -99,7 +99,7 @@
 				TargetAttributes = {
 					7821F2821D4DC96400A5FAF2 = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = 53T24A252B;
+						DevelopmentTeam = RS6N8DMLWW;
 						DevelopmentTeamName = "Ravi Tyagi (Personal Team)";
 						ProvisioningStyle = Automatic;
 					};
@@ -262,6 +262,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = RS6N8DMLWW;
 				INFOPLIST_FILE = GenericsInPlay/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xebia.GenericsInPlay;
@@ -274,6 +275,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				DEVELOPMENT_TEAM = RS6N8DMLWW;
 				INFOPLIST_FILE = GenericsInPlay/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xebia.GenericsInPlay;
@@ -301,6 +304,7 @@
 				7821F2971D4DC96400A5FAF2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
