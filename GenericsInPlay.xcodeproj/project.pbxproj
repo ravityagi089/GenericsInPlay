@@ -12,6 +12,7 @@
 		7821F28C1D4DC96400A5FAF2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7821F28A1D4DC96400A5FAF2 /* Main.storyboard */; };
 		7821F28E1D4DC96400A5FAF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7821F28D1D4DC96400A5FAF2 /* Assets.xcassets */; };
 		7821F2911D4DC96400A5FAF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7821F28F1D4DC96400A5FAF2 /* LaunchScreen.storyboard */; };
+		7821F2991D4DC98E00A5FAF2 /* MathsUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7821F2981D4DC98E00A5FAF2 /* MathsUtility.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		7821F28D1D4DC96400A5FAF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7821F2901D4DC96400A5FAF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7821F2921D4DC96400A5FAF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7821F2981D4DC98E00A5FAF2 /* MathsUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MathsUtility.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		7821F2851D4DC96400A5FAF2 /* GenericsInPlay */ = {
 			isa = PBXGroup;
 			children = (
+				7821F2981D4DC98E00A5FAF2 /* MathsUtility.swift */,
 				7821F2861D4DC96400A5FAF2 /* AppDelegate.swift */,
 				7821F2881D4DC96400A5FAF2 /* ViewController.swift */,
 				7821F28A1D4DC96400A5FAF2 /* Main.storyboard */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7821F2891D4DC96400A5FAF2 /* ViewController.swift in Sources */,
+				7821F2991D4DC98E00A5FAF2 /* MathsUtility.swift in Sources */,
 				7821F2871D4DC96400A5FAF2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
